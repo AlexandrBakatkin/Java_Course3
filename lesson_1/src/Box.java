@@ -1,11 +1,12 @@
 import java.util.ArrayList;
 
 public class Box {
-    private ArrayList <Fruit> fruitList = new ArrayList<>();
+    private ArrayList <Fruit> fruitList;
     private String typeFruit = null;
     private float fruitWeight;
 
     public Box() {
+        this.fruitList = new ArrayList();
     }
 
     public boolean putFruit(Fruit <Fruit> fruit){

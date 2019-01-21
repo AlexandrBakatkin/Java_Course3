@@ -27,6 +27,7 @@ public class Main {
         Box box2 = new Box();
         Box box3 = new Box();
         System.out.println("Put " + apple1.getType() + " in the box: " + box1.putFruit(apple1));
+        System.out.println("Put " + orange1.getType() + " in the box: " + box1.putFruit(orange1));
         System.out.println("Put " + apple1.getType() + " in the box: " + box1.putFruit(apple2));
         System.out.println("Put " + apple1.getType() + " in the box: " + box1.putFruit(apple4));
         System.out.println("Put " + apple1.getType() + " in the box: " + box1.putFruit(apple5));
